@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.btn1{
+    height: 40px;width: 100px;
+    border: 1px solid  #9a60fe8b;;
+   color:  #5f1fcd;;
+    border-radius: 10px;
+   
+}
+.over{
+    top: 200px;
+    height: 300px;
+    left: 100px;
+    
+}
+.ivh{
+    height: 600px;
+     border-radius: 15%;
+}
+.ivh1{
+    width: 800px;
+    height: 400px;
+    border-radius: 15%;
+}
+.founder-card {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    max-width: 700px;
+}
+
+@media (max-width: 992px) {
+    .founder-card {
+        width: 90%;
+        bottom: -40px;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .founder-card {
+        position: static;
+        transform: none;
+        margin-top: 1rem;
+    }
+}
+
+
+
+.related-link {
+  color: #6f42c1;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+h4 {
+  color: #333;
+}
+
+.text-muted {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.work-process h2 {
+  font-size: 2rem;
+}
+
+.work-process .card img {
+  transition: transform 0.3s ease;
+}
+
+.work-process .card {
+  border-radius: 12px;
+}
+
+.work-process h5,
+.work-process h6 {
+  color: #2b2b2b;
+}
+
+.text-muted {
+  font-size: 0.95rem;
+}
